@@ -1,0 +1,19 @@
+.task-card {
+  transition: transform 0.25s ease, 
+  box-shadow 0.25s ease;
+}
+
+.task-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.task-image {
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.task-card:hover .task-image {
+  transform: scale(1.05);
+}
